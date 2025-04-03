@@ -1,0 +1,1 @@
+If you are interested in this article, feel free to cite: Chang Z, Luo J. EIDBO-TrICP: a coarse-to-fine algorithm for cross-source point cloud registration in aero-engineering blades. Engineering Research Letters. 2025; 7: 015280.
