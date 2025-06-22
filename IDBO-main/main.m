@@ -1,3 +1,9 @@
+% Improved Dung Beetle Optimizer: (IDBO) (demo)
+% Programmed by Zhanyou Chang    
+% Updated June 22,2025.
+% Chang Z, Luo J. EIDBO-TrICP: a coarse-to-fine algorithm for cross-source point cloud registration in aero-engineering blades. Engineering Research Letters. 2025; 7: 015280.
+% DOI: https://doi.org/10.1088/2631-8695/adb4bf
+
 clear all;
 close all;
 clc;
@@ -67,6 +73,6 @@ grid off
 
 
 % Result Outputs
-disp(['DBO£ºWorst: ', num2str(worst_DBO), ', Best: ', num2str(best_DBO), ', Mean: ', num2str(mean_DBO), ', Std: ', num2str(std_DBO)]);
-disp(['IDBO£ºWorst: ', num2str(worst_IDBO), ', Best: ', num2str(best_IDBO), ', Mean: ', num2str(mean_IDBO), ', Std: ', num2str(std_IDBO)]);
+disp(['DBOÂ£ÂºWorst: ', num2str(worst_DBO), ', Best: ', num2str(best_DBO), ', Mean: ', num2str(mean_DBO), ', Std: ', num2str(std_DBO)]);
+disp(['IDBOÂ£ÂºWorst: ', num2str(worst_IDBO), ', Best: ', num2str(best_IDBO), ', Mean: ', num2str(mean_IDBO), ', Std: ', num2str(std_IDBO)]);
 
