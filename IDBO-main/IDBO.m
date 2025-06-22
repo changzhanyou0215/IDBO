@@ -1,6 +1,8 @@
-% Dung Beetle Optimizer: (DBO) (demo)
-% Programmed by Jian-kai Xue    
-% Updated 28 Nov.2022. 
+% Improved Dung Beetle Optimizer: (IDBO) (demo)
+% Programmed by Zhanyou Chang    
+% Updated June 22,2025.
+% Chang Z, Luo J. EIDBO-TrICP: a coarse-to-fine algorithm for cross-source point cloud registration in aero-engineering blades. Engineering Research Letters. 2025; 7: 015280.
+% DOI: https://doi.org/10.1088/2631-8695/adb4bf
 
 function [fMin, bestX, Convergence_curve] = IDBO(pop, M, c, d, dim, fobj)
 
@@ -54,7 +56,7 @@ end
 
 [fMMin, bestII] = min(fit);   % fMin is the current optimal fitness value
 bestXX = x(bestII,:);         % bestXX is the current optimum solution
-k = 5;
+k = randn;
 R = 1 ./ (1 + exp(-k * (2 * (1 - (t / M)) - 1)));                        
 
 Xnew1 = bestXX.*(1-R); 
